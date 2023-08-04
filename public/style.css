@@ -1,0 +1,280 @@
+*{
+  box-sizing: border-box;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  padding: 50px;
+  padding-bottom: 147px;
+
+}
+form
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgb(6 138 16 / 16%);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(6 138 16 / 16%);
+
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+#nameCafe{
+  height: 47px;
+  font-size: 20px;
+  background: #162a19;
+
+}
+.no{
+  background: #fff0;
+  border: 3px solid #1ECD97;
+}
+#newProdeuct{
+  height: 47px;
+  font-size: 20px;
+  background: #162a19;
+
+}
+select, textarea, input[type="tel"] {
+  width: 96%;
+  padding: 10px;
+  border: 3px solid #1ECD97;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+  min-height: 30px;
+  background: rgba(0, 0, 0, 0);
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+#newProdeuct{
+  margin-top: 10px;
+}
+button[type=submit], #myButton {
+  outline:none;
+  min-height: 40px;
+  text-align: center;
+  min-width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: #1ECD97;
+  letter-spacing:1px;
+  text-shadow:0;
+  font-size: 12px weight bold;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+button:hover, #myButton:hover{
+  color:white;
+  background: #1ECD97;
+}
+button:cursor, #myButton:cursor{
+  transition: all 0.25s ease
+}
+button:active, #myButton:active{
+  padding: 10px;
+  background-color: #f6fa19;
+}
+button[type="submit"] {
+  margin-left: 161px;
+  margin-top: 20px;
+}
+#num{
+  background: #162a19;
+  border: 2px solid #1ECD97;
+  height: 37px;
+}
+
+
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.no {
+  margin-top: 5px;
+  display: table
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+}
+select {
+  margin-bottom: 7px;
+}
+textarea{
+  margin-top: 7px;
+}
+
+/* .tel {
+  all: unset;
+} */
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 60px;
+  margin-bottom: 7px;
+}
+#chek1{
+  margin-left: 10px;
+}
+#num {
+  margin-top: 10px;
+}
+.ex10 h1:before {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  border-left: 10px solid rgb(81, 227, 213);
+  top: 23%;
+  margin: 0 auto;
+  left: 15%;
+}
+
+.ex10 h1:after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  border-right: 10px solid rgb(81, 227, 213);
+  top: 23%;
+  margin: 0 auto;
+  right: 15%;
+}
+
+@media (max-width: 767px) {
+  #newProdeuct {
+    height: 44px;
+    font-size: 18px;
+  }
+
+  body {
+    font-size: 14px;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #162a19;
+  }
+
+  .form-container {
+    background: rgb(17, 13, 5);
+  }
+
+  form {
+    background-color: #050505;
+    color: #fff;
+    border-radius: 20px;
+  }
+
+  #delBtn, #chekBtn {
+    margin-top: -3px;
+
+  }
+
+  .no {
+    background-color: #252525;
+    height: 38px;
+    width: 65px;
+    margin-top: px;
+    border: 2px solid #1ECD97;
+    color: #fff;
+  }
+
+  .numZakaz {
+    margin-top: -50px;
+  }
+
+  #num {
+    background-color: #252525;
+    height: 38px;
+    width: 38px;
+    margin-top: 12px;
+    border: 2px solid #1ECD97;
+    color: #fff;
+  }
+
+  .section-title {
+    font-size: 30px;
+    color: #fff;
+
+  }
+
+  select, textarea, input[type="tel"] {
+    width: 100%;
+    background-color: #252525;
+    border: 2px solid #1ECD97;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button[type=submit] {
+    margin-left: 67px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #050505;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+  }
+
+  #myButton {
+    margin-left: 63px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #050505;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+  }
+
+  input[type="submit"] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 200px;
+  }
+}
