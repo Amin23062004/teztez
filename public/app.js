@@ -333,7 +333,7 @@ submit1.addEventListener('click', (e) => {
     console.log(data)
 
 
-    fetch('https://tez-tez-zakaz.onrender.com/your-endpoint', {
+    fetch('https://teztez.onrender.com/your-endpoint', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
